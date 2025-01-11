@@ -171,6 +171,47 @@
     .app-link:active {
       background-color: #008ba3;
     }
+
+
+    @media (max-width: 460px) {
+  header {
+    padding: 10px 15px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; 
+    text-align: center; 
+    position: relative; 
+  }
+  header .logo {
+    font-size: 12px; 
+    font-weight: bold;
+    color: #00d4ff; 
+    text-transform: uppercase;
+    margin-right: 10px; 
+  }
+
+  
+  header nav {
+    display: flex; 
+    justify-content: space-between; 
+    width: 70%; 
+    align-items: center;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 500; 
+  }
+
+  header nav a:hover {
+    color: #00d4ff; 
+  }
+}
+
   </style>
 </head>
 <body>
