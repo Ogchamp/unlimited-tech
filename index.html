@@ -316,6 +316,94 @@
       <a href="mailto:ogchamp6@gmail.com?subject=Contacting UNLIMITED TECH&body=Hello,%0D%0A%0D%0A[Your Message]" target="_blank">Send Email</a>
     </section>
   </section>
+      <h1>UNLIMITED TECH Resources & Tools</h1>
+    <p>Your go-to hub for tech resources, QR codes, and news.</p>
+    <button class="toggle-dark-mode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </header>
+  <main>
+    <!-- Image Section -->
+    <section class="image-section">
+      <img src="image (5).jpeg" alt="UNLIMITED TECH">
+    </section>
+
+    <!-- Links Section -->
+    <section class="links">
+      <h2>Important Links</h2>
+      <input type="text" id="searchBar" placeholder="Search links..." oninput="filterLinks()">
+      <div id="linksList">
+        <a href="https://developer.android.com/" target="_blank">Android Developer Guide</a>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools Tutorials</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
+        <a href="https://techcrunch.com/" target="_blank">TechCrunch</a>
+      </div>
+    </section>
+
+    <!-- Quick Access Buttons -->
+    <section class="link-buttons">
+      <h2>Quick Access</h2>
+      <button onclick="location.href='https://github.com/Bhai4You/Termux-Killer'">VIRUS TOOLS🦠</button>
+      <button onclick="location.href='https://www.youtube.com/'">YOUTUBE💥</button>
+      <button onclick="location.href='https://developer.mozilla.org/'">MDN WEB DOCS💥</button>
+      <button onclick="location.href='https://www.codecademy.com/'">CODECADAMY💥</button>
+      <button onclick="location.href='https://news.ycombinator.com/'">HACKER NEWS💥</button>
+      <button onclick="location.href='https://github.com/noolep/multiBF_ig'">INSTAGRAM CRACK💥</button>
+      <button onclick="location.href='https://github.com/KomolSaha/mail-bomber'">GMAIL BOMBER💥</button>
+      <button onclick="location.href='https://github.com/TheSpeedX/TBomb.git'">SMS BOMBER💥</button>
+      <button onclick="location.href='https://github.com/404rgr/spamerCALL'">SPAM CALL🤙</button>
+    </section>
+
+    <!-- Watch Videos Section -->
+    <section class="video-section">
+      <h2>Watch Tech Tutorials</h2>
+      <a href="https://www.youtube.com/c/ProgrammingKnowledge" target="_blank">Programming Knowledge YouTube Channel</a>
+      <a href="https://www.udemy.com/courses/search/?q=programming" target="_blank">Udemy Programming Courses</a>
+    </section>
+
+    <!-- Hack Teaching Section -->
+    <section class="hack-teaching">
+      <h2>Learn Hacking</h2>
+      <a href="https://www.hacker101.com/" target="_blank">Hacker101 - Free Hacking Courses</a>
+      <a href="https://www.udemy.com/course/learn-ethical-hacking-from-scratch/" target="_blank">Udemy Ethical Hacking Course</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-buttons">
+      <h2>CONTACT OG CHAMP</h2>
+      <a href="https://whatsapp.com/channel/0029VaN2eQQ59PwNixDnvD16" target="_blank">VISIT MY CHANNEL</a>
+      <a href="https://wa.me/22897247256" target="_blank">CONTACT VIA WHATSAPP</a>
+    </section>
+
+    <!-- Chat with GPT-AI Section -->
+    <section class="contact-buttons">
+      <h2>Chat with GPT-AI</h2>
+      <a href="https://chat.openai.com/" target="_blank">Start Chat</a>
+    </section>
+
+    <!-- QR Code Generator Section -->
+    <section class="qr-generator">
+      <h2>QR Code Generator</h2>
+      <p>Enter a URL below to generate a QR code:</p>
+      <form id="qrForm">
+        <input type="text" id="qrInput" placeholder="Enter URL here">
+        <label for="qrSize">Size:</label>
+        <select id="qrSize">
+          <option value="150x150">150x150</option>
+          <option value="200x200">200x200</option>
+          <option value="300x300">300x300</option>
+        </select>
+        <button type="button" onclick="generateQR()">Generate QR Code</button>
+      </form>
+      <div id="qrCode" style="margin-top: 1em;"></div>
+    </section>
+
+    <!-- News Feed Section -->
+    <section class="news-feed">
+      <h2>UNLIMITED TECH NEWS</h2>
+      <p>Get the latest updates in the tech world:</p>
+      <button onclick="fetchTechNews()">Load News</button>
+      <div id="newsList" style="margin-top: 1em;"></div>
+        
 
   <!-- Footer -->
   <footer>
